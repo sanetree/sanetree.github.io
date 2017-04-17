@@ -1,0 +1,6 @@
+
+body {
+  font-family: georgia, monospace;
+  font-size: 2em;
+  background-image: src('scooby.jpg');
+}
