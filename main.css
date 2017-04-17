@@ -2,5 +2,13 @@
 body {
   font-family: georgia, monospace;
   font-size: 2em;
-  background-image: src('scooby.jpg');
+  color: red
+}
+
+html {
+  background-image: url('scooby.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
