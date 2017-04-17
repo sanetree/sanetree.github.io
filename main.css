@@ -1,8 +1,8 @@
 
 body {
-  font-family: georgia, monospace;
+  font-family: 'Baloo Bhaina', Changa One;
   font-size: 2em;
-  color: red
+  color: #05DCD2;
 }
 
 html {
@@ -11,4 +11,19 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.main h2 a {
+  font-weight: bolder;
+  color: #1358B0;
+  font-size: 3em;
+  display: flex;
+}
+
+.container p a {
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 37%;
+  padding-left: 49%;
+  color: #D5DAC3;
 }
