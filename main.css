@@ -2,7 +2,7 @@
 body {
   font-family: 'Baloo Bhaina', Changa One;
   font-size: 2em;
-  color: #05DCD2;
+  color: #purple;
 }
 
 html {
@@ -13,17 +13,44 @@ html {
   background-attachment: fixed;
 }
 
-.main h2 a {
-  font-weight: bolder;
-  color: #1358B0;
-  font-size: 3em;
-  display: flex;
+.title-btn {
+  float: right;
 }
 
-.container p a {
+.title-btn a {
+  cursor: grab;
+  text-shadow: green;
+  text-align: center;
+  border: 2px solid black;
+  border-top-width: thick;
+  position: relative;
+  font-weight: bolder;
+  color: #skyblue;
+  font-size: 5em;
+}
+
+.title-btn a:active {
+  cursor: grabbing;
+  top: 6px;
+  color: darkblue;
+  font-size: 4em;
+}
+
+.main p {
+  color: black;
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 23.25%;
+}
+
+.container {
+  position: fixed;
+  margin-top: 46.5%;
+  margin-left: 50%;
+}
+.container a {
   display: flex;
   font-family: 'Ubuntu', sans-serif;
-  padding-top: 31.5%;
-  padding-left: 49%;
+  position: fixed;
   color: #D5DAC2;
 }
