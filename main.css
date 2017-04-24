@@ -38,24 +38,26 @@ html {
 }
 
 .openload-btn a {
-  color: black;
+  color: red;
+  font-size: 3em;
   position: fixed;
-  left: 50%;
-  top: 50%;
+  left: 40%;
+  top: 40%;
   text-decoration: none;
 }
 
 .vidup-btn a {
   color: red;
   position: fixed;
-  left: 50%;
+  font-size: 3em;
+  left: 42.8%;
   top: 55%;
   text-decoration: none;
 }
 .container {
   position: absolute;
   bottom: 70px;
-  left: 50%;
+  left: 48%;
 }
 
 .container a {
