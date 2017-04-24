@@ -27,6 +27,7 @@ html {
   font-weight: bolder;
   color: #skyblue;
   font-size: 5em;
+  text-decoration: none;
 }
 
 .title-btn a:active {
@@ -36,18 +37,27 @@ html {
   font-size: 4em;
 }
 
-.main p {
+.openload-btn a {
   color: black;
   position: fixed;
-  margin-left: 50%;
-  margin-top: 23.25%;
+  left: 50%;
+  top: 50%;
+  text-decoration: none;
 }
 
-.container {
+.vidup-btn a {
+  color: red;
   position: fixed;
-  margin-top: 46.5%;
-  margin-left: 50%;
+  left: 50%;
+  top: 55%;
+  text-decoration: none;
 }
+.container {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+}
+
 .container a {
   display: flex;
   font-family: 'Ubuntu', sans-serif;
